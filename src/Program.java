@@ -25,7 +25,7 @@ public class Program {
 
         // полиморфизм
         animal = cat;
-        animal.show();
+        animal.show(); // new Cat().show(); // ((Animal) new Cat()).show();
         System.out.println();
     }
 

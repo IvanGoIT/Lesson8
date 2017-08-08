@@ -6,4 +6,9 @@ public class Cat extends MiddleClass {
         super.show();
         System.out.println("а именно кот");
     }
+
+    @Override
+    public void demo() {
+        System.out.println("демо кот");
+    }
 }
